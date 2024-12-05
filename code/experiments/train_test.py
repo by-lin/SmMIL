@@ -215,7 +215,7 @@ def train_test(config, run_train=True, run_test=True):
         print('Plotting attention values distribution')
         
         T_pred = (T_logits_pred > 0).astype(int)
-        fig_att_hist = plot_att_hist(s_pred, y_true, T_pred, bag_idx)
+        fig_att_hist = plot_att_hist(f_pred, y_true, T_pred, bag_idx)
 
         if wandb.run is None:
 
