@@ -4,7 +4,7 @@
         Sm: enhanced localization in Multiple Instance Learning for medical imaging classification [<a href="https://arxiv.org/abs/2410.03276">arXiv</a>]
     </h1>
     <a align="center">
-        <img align="middle" src="./img/sm.bmp" width="300" />
+        <img align="middle" src="./img/sm.png" width="300" />
     </a>
 </div>
 
