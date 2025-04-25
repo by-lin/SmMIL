@@ -52,7 +52,7 @@ def extract_labels(mask, coords, patch_size, wsi_label):
             repeat = num_tumor == 0
             if repeat:
                 print(f'{wsi_name} is tumor but has no tumor patches. Repeating the process with a new threshold.')
-                threshold -= 0.1
+                threshold = threshold * 0.5
     
     return labels_array
 
